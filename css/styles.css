@@ -50,7 +50,8 @@ img {
     display: block;
 }
 
-.contenedor {
+[class$="__contenedor"]{
+    
     max-width: 120rem;
     margin: 0 auto;
     width: 90%;
@@ -82,13 +83,6 @@ img {
     .header {
         background-size: 105rem;
     }
-}
-
-
-.header__contenedor {
-    max-width: 120rem;
-    margin: 0 auto;
-    width: 90%;
 }
 
 @media(min-width:768px) {
@@ -178,4 +172,24 @@ img {
         color: var(--blanco);
 
     }
+}
+
+/* SECCION QUE ES NUCLEOS */
+
+.nucleus{
+    margin-top: 3rem;
+}
+
+.nucleus__heading{
+text-align: center;
+}
+
+@media(min-width:768px){ 
+    .nucleus__grid{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        column-gap: 5rem;
+        align-items: center;
+    }
+    
 }
