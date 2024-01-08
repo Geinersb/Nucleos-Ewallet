@@ -181,6 +181,10 @@ img {
     }
 }
 
+.navegacion__link--blanco{
+    color: var(--blanco);
+}
+
 /* SECCION QUE ES NUCLEOS */
 
 .nucleus{
@@ -387,4 +391,31 @@ padding-left: 4rem;
     text-align: right;
     font-weight: 700;
     
+}
+
+/* FOOTER */
+
+.footer{
+    background-color: #5A30A0;
+    padding: 3rem 0;
+}
+
+.footer__logo{
+    width: 20rem;
+    margin: 0 auto 4rem auto;
+}
+
+@media(min-width:768px){ 
+    
+    .footer__grid{
+      display: flex;
+      justify-content: space-between;
+    align-items: center;
+    }
+}
+
+@media(min-width:768px){ 
+    .footer__logo{
+        margin: 0;
+    }
 }
